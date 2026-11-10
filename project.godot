@@ -1,0 +1,29 @@
+; Engine configuration file.
+; Lindon Homerun is a landscape-first Android game prototype.
+
+config_version=5
+
+[application]
+
+config/name="Lindon Homerun"
+run/main_scene="res://scenes/game_screen.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://assets/icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/handheld/orientation=1
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="mobile"
+textures/vram_compression/import_etc2_astc=true
+limits/opengl/max_lights_per_object=4
+environment/defaults/default_clear_color=Color(0.42, 0.74, 0.9, 1)
