@@ -16,7 +16,7 @@ window/size/viewport_width=1280
 window/size/viewport_height=720
 window/size/window_width_override=1280
 window/size/window_height_override=720
-window/handheld/orientation=1
+window/handheld/orientation=0
 window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
 
@@ -25,5 +25,5 @@ window/stretch/aspect="keep"
 renderer/rendering_method="mobile"
 renderer/rendering_method.mobile="mobile"
 textures/vram_compression/import_etc2_astc=true
-limits/opengl/max_lights_per_object=4
+rendering/limits/opengl/max_lights_per_object=4
 environment/defaults/default_clear_color=Color(0.42, 0.74, 0.9, 1)
